@@ -10,3 +10,9 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(barcelonaCenterMap);
 
 var centfocsMarker = L.marker([41.387, 2.166]).addTo(barcelonaCenterMap);
+
+centfocsMarker.bindPopup(
+    `<h3>Restaurant Centfocs</h3>
+    <p>Restaurante mediterráneo</p>
+    <p>Carrer de Balmes, 16, 08007, Barcelona</p>`
+  ).openPopup();
