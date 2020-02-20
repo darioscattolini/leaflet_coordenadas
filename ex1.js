@@ -9,3 +9,4 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1IjoiZHNjYXR0b2xpbmkiLCJhIjoiY2s2dW93b3JmMGIxODNnbzNkM3I0bW9ocSJ9.1qz7SprOUUh2A154p75psA'
 }).addTo(barcelonaCenterMap);
 
+var centfocsMarker = L.marker([41.387, 2.166]).addTo(barcelonaCenterMap);
